@@ -25,12 +25,6 @@ function App() {
      <Carrito/>
      <Paginas />
      <Footer>
-     <div className="App">
-      <a href="#" download>
-        {''}
-        descargar archivo
-      </a>
-     </div>
      </Footer>
      </Router>
     </div>
