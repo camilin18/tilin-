@@ -39,7 +39,7 @@ export const Header = () => {
             <Link to="/productos">PRODUCTOS</Link>
         </li>
         <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
-            <a href="https://localhost:3000">SALIR</a>
+            <a href="https://proyectoweb-cj0a.onrender.com">SALIR</a>
 
         </li>
     </ul>
