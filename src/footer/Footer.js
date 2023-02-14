@@ -36,6 +36,7 @@ const Footer = () => {
         </Row>
       </Container>
     </Box>
+    
   );
 };
 export default Footer;

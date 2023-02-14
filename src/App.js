@@ -13,6 +13,7 @@ import Footer from "./footer/Footer";
 
 
 
+
 function App() {
   const {isAuthenticated} = useAuth0();
   return (
@@ -23,7 +24,14 @@ function App() {
       <Header/>
      <Carrito/>
      <Paginas />
-     <Footer/>
+     <Footer>
+     <div className="App">
+      <a href="#" download>
+        {''}
+        descargar archivo
+      </a>
+     </div>
+     </Footer>
      </Router>
     </div>
     </DataProvider>

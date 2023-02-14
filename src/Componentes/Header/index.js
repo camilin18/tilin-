@@ -25,6 +25,7 @@ export const Header = () => {
   
     return(
       <header>
+        
         <Link to="/productos">
             <div className="logo">
                 <img src={Logo} alt="logo" width="150" height="250" di/>
@@ -40,8 +41,14 @@ export const Header = () => {
         </li>
         <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
             <a href="https://login-xfx7.onrender.com">SALIR</a>
-
         </li>
+        <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
+        <a href="../../imagenes/ARREGLOS.pdf" download>
+        {''} 
+        ARREGLOS
+      </a>
+        </li>
+      
     </ul>
     <div className="cart" onClick={toogleMenu}>
         <box-icon name="cart"></box-icon>
