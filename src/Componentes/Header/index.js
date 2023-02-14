@@ -5,6 +5,7 @@ import {DataContext} from "../../context/Dataprovider";
 import Login from "../../imagenes/login-icon.jpg";
 import { useAuth0 } from '@auth0/auth0-react';
 import { LoginButton } from '../Login/Login';
+import { Redirect } from "react-router-dom";
 
 
 export const Header = () => {
@@ -38,7 +39,8 @@ export const Header = () => {
             <Link to="/productos">PRODUCTOS</Link>
         </li>
         <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
-            <Link to="http://localhost:3000/">SALIR</Link>
+            <a href="https://localhost:3000">SALIR</a>
+
         </li>
     </ul>
     <div className="cart" onClick={toogleMenu}>
