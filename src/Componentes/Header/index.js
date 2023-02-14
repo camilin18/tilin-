@@ -37,6 +37,9 @@ export const Header = () => {
         <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
             <Link to="/productos">PRODUCTOS</Link>
         </li>
+        <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
+            <Link to="http://localhost:3000/">SALIR</Link>
+        </li>
     </ul>
     <div className="cart" onClick={toogleMenu}>
         <box-icon name="cart"></box-icon>
