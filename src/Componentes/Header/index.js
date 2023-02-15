@@ -43,7 +43,7 @@ export const Header = () => {
             <a href="https://login-xfx7.onrender.com">SALIR</a>
         </li>
         <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
-        <a href="../../imagenes/ARREGLOS.pdf" download>
+        <a href="./ARREGLOS.pdf" download>
         {''} 
         ARREGLOS
       </a>
