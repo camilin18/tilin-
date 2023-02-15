@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import Logo from "../../imagenes/logo.png";
 import {Link} from "react-router-dom";
 import {DataContext} from "../../context/Dataprovider";
+import {Archivo} from "./ARREGLOS.pdf";
 import Login from "../../imagenes/login-icon.jpg";
 import { useAuth0 } from '@auth0/auth0-react';
 import { LoginButton } from '../Login/Login';
@@ -43,7 +44,7 @@ export const Header = () => {
             <a href="https://login-xfx7.onrender.com">SALIR</a>
         </li>
         <li style={{right:"38rem",fontSize:"2rem",top:"8rem"}}>
-        <a href="./ARREGLOS.pdf" download>
+        <a href={Archivo} download>
         {''} 
         ARREGLOS
       </a>
