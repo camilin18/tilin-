@@ -10,6 +10,7 @@ import { LogoutButton } from "./Componentes/logout/Logout";
 import { Profile} from "./Componentes/profile/profile";
 import {useAuth0} from '@auth0/auth0-react';
 import Footer from "./footer/Footer";
+import {Inicio} from "./Componentes/Inicio";
 
 
 
@@ -21,9 +22,10 @@ function App() {
     <div className="App">
     
       <Router>
+      
       <Header/>
-     <Carrito/>
      <Paginas />
+     <Carrito/>
      <Footer>
      </Footer>
      </Router>
